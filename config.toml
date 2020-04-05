@@ -1,3 +1,20 @@
-baseURL = "http://example.org/"
+baseURL = "https://jordiburgos.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Jordi Burgos"
+
+theme = "hyde"
+
+# hyde config
+
+[Menus]
+  main = [
+      {Name = "Github", URL = "https://github.com/username/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/username/"}
+  ]
+
+[params]
+  description = "Personal blog"
+
+  themeColor = "theme-base-08"
+
+googleAnalytics = "UA-45872762-1"
