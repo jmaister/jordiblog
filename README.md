@@ -14,5 +14,5 @@ My personal blog. Check it on https://jordiburgos.com
 
 # Build
 
-    hugo
+    hugo --baseURL "https://jordiburgos.com" --destination "dist"
 
