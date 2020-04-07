@@ -1,25 +1,74 @@
-baseURL = "https://jordiburgos.com/"
-languageCode = "en-us"
+## Basic Configuration
+baseurl = "https://jordiburgos.com/"
+languageCode = "en"
+
 title = "Jordi Burgos"
+theme = "hyde-hyde"
 
-theme = "hyde"
-
-[permalinks]
-  posts = "/posts/:year/:title/"
-
-# hyde config
-
-[Menus]
-  main = [
-      {Name = "Posts", URL = "/posts/", weight = 1},
-      {Name = "Github", URL = "https://github.com/jmaister"},
-      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/jordiburgos/"},
-      {Name = "Twitter", URL = "https://twitter.com/jordimaister"}
-  ]
-
-[params]
-  description = "Personal blog"
-
-  themeColor = "theme-base-08"
-
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
 googleAnalytics = "UA-45872762-1"
+# enableRobotsTXT = true
+
+# summarylength = 30
+
+#paginate = 5
+
+## Site Settings
+[params]
+    author = "Jordi Burgos"
+    title = "Personal blog"
+    description = "I am a Software Engineer. Here are some notes to keep track of what I do and some experiments."
+    authorimage = "/img/hugo.png"
+    dateformat = "2 Jan 2006"
+
+    # sidebar, copyright & license
+    copyright = "Jordi Burgos"
+    since = 2014
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = false
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "monokai"
+    
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+
+## Social Accounts
+[params.social]
+    github = "jmaister"
+    #instagram = "<username>"
+    #xing = "<username>"
+    linkedin = "jordiburgos"
+    twitter = "jordimaister"
+    #facebook = "<username>"
+    stackoverflow = "1108098/jordiburgos"
+    #telegram = "<username>"
+    # orcid = "<xxxx-xxxx-xxxx-xxxx>"
+    email = "jordiburgos@gmail.com"
+    # gravatar = "your-email@example.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+#[[menu.main]]
+#    name = "Portfolio"
+#    identifier = "portfolio"
+#    weight = 200
+#    url = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
