@@ -21,3 +21,12 @@ My personal blog. Check it on https://jordiburgos.com
 https://github.com/htr3n/hyde-hyde
 
 https://github.com/spf13/hyde
+
+# Shortcodes
+
+    {{< rawhtml >}}
+    {{< /rawhtml >}}
+
+
+    {{< imgur id >}}
+    {{< /imgur >}}
