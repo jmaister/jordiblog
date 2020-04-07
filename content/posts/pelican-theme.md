@@ -1,9 +1,17 @@
+---
 title: Creating a Pelican theme with Bootstrap 
-date: 2013-11-28 23:00
+date: "2013-11-28"
 author: Jordi Burgos
-category: Technology
-tags: javascript, css, bootstrap, pelican, blog, seo
+tags:
+  - technology
+  - javascript
+  - css
+  - bootstrap
+  - pelican
+  - blog
+  - seo
 slug: create-pelican-theme-bootstrap
+---
 
 I wanted to give the blog my personal touch by creating my own theme for [Pelican](http://getpelican.com). Here is the [getting started page](https://github.com/getpelican/pelican/blob/master/docs/getting_started.rst) for creating your own blog with this tool.
 
@@ -13,11 +21,7 @@ There are a lot of good and nice themes, but I prefered to create/copy/inspire t
 
 I called it jmtheme and you can download it form here [jmtheme](https://github.com/jmaister/jmtheme).
 
-<div class="center" markdown="1">
-
-![Theme]({filename}/images/theme_thumb.png)
-
-</div>
+![Theme](/images/theme_thumb.png)
 
 
 Features
@@ -35,7 +39,6 @@ Personalization
 
 Option to add a list of icons pointing to the common social sites. Also the email icon.
 
-    :::python
     # Social widget
     SOCIAL = (
         ('twitter', 'http://twitter.com/XXXXXX'),
@@ -46,25 +49,21 @@ Option to add a list of icons pointing to the common social sites. Also the emai
 
 Social buttons on each article for sharing. Just add value to this variables.
 
-    :::python
     GITHUB_USERNAME = 'jmaister'
     TWITTER_USERNAME = 'jordimaister'
     FACEBOOK_APPID = '999......999'
 
 Disqus comments:
 
-    :::python
     DISQUS_SITENAME = 'jordiburgos'
     
 Google analytics:
 
-    :::python
     GOOGLE_ANALYTICS_CODE = 'UA-9999999-1'
     GOOGLE_ANALYTICS_NAME = 'jordiburgos.com'
 
 Icons for pages to show on the menu. Add "icon" value on the page.
 
-    :::python
     icon: trophy
 
 

@@ -1,9 +1,13 @@
+---
 title: Fast Discovery programming
-date: 2014-01-04 20:00
+date: "2014-01-04"
 author: Jordi Burgos
-category: Programming
-tags: programming, fast, discovery
+tags: 
+  - programming
+  - fast
+  - discovery
 slug: fast-discovery-programming
+---
 
 I would like to introduce you the **Fast Discovery** programming. It is based on the discovery on errors or failures as fast as possible to keep going on the good way to achieve the goals.
 
@@ -26,13 +30,12 @@ Learn the shortcuts for the most common actions you usually do. Here are some ex
 2. Common for saving a file: *Shift + Alt + F* to format the code and *Control + S* to save the file.
 3. Find some string in all file: *Control + H*.
 4. Customize the search options, just select the ones that you use. Probably it is just "File Search".
-<div class="center" markdown="1">
-![Search customize]({filename}/images/eclipse/search-customize.png)
-</div>
+
+![Search customize](/images/eclipse/search-customize.png)
+
 5. For faster results, select the folder or project you want to look for and check the option "Selected resources". It will not search in ALL the workspace
-<div class="center" markdown="1">
-![Search scope]({filename}/images/eclipse/search-scope.png)
-</div>
+
+![Search scope](/images/eclipse/search-scope.png)
 
 You name them. Just look for your more used actions and try to find the shortcut on the menu.
 
@@ -60,9 +63,8 @@ If there is no more choice and you use the mouse, keep in mind the tips below. Y
 Fix common options or questions. How many times do you click on an "OK/Cancel" alert on each save or compile. Have you read it carefully? Is it a "Do not ask me again" checkbox? This can save some precious time.
 
 On this example... yes click the checkbox "Run always in background", and then you can continue working while it executes. It will never show up again.
-<div class="center" markdown="1">
-![Search progress]({filename}/images/eclipse/search-progress.png)
-</div>
+
+![Search progress](/images/eclipse/search-progress.png)
 
 
 Unit Testing
@@ -89,8 +91,6 @@ These are the goodnes of **Fast Discovery** progarmming. Saving time, just a lit
 
 And more speed at programming means more results achieved. And that is good for your job. Do not work like this again:
 
-<div class="center" markdown="1">
-![Waiting]({filename}/images/waiting.gif)
-</div>
+![Waiting](/images/waiting.gif)
 
 These are just some examples, of course, there are much more. Just tell yours!!! 

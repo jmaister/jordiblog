@@ -1,9 +1,12 @@
+---
 title: Hello World!
-date: 2013-11-20 20:00
+date: "2013-11-20"
 author: Jordi Burgos
-category: Misc
-tags: blog
+tags: 
+  - blog
+  - misc
 slug: hello-world
+---
 
 Hello World !!
 

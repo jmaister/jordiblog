@@ -1,9 +1,15 @@
+---
 title: The smallest and easiest REST server in Python
-date: 2014-04-16 23:00
+date: "2014-04-16"
 author: Jordi Burgos
-category: Programming
-tags: AngularJS, Python, JSON, project
+tags: 
+  - programming
+  - AngularJS
+  - Python
+  - JSON
+  - project
 slug: smallest-easiest-rest-server-python
+---
 
 I am creating a web application for writing. This is just the beginning and I am making some experiments.
 
@@ -18,7 +24,6 @@ Here is the python script to define and start the REST server.
 
 It defines two endpoints, */authors* and */suggest/[param1]/[param2]*.
 
-    :::python
     #!/usr/bin/env python
     import web
     import json
@@ -57,7 +62,6 @@ Call using AngularJS
 
 The JavaScript code to make the request to the */authors* URL. It updates the *$scope.authors* variable with the data received.
 
-    :::javascript
     var AUTHOR_URL = 'http://localhost:8080/authors';
     
     $http.get(AUTHOR_URL).success(function(data, status, headers, config) {
@@ -71,13 +75,13 @@ The JavaScript code to make the request to the */authors* URL. It updates the *$
 
 This is the HTML code with the AngularJS directives to populate the data received to a SELECT component.
     
-    :::html
     <select ng-model="author" ng-options="a for a in authors">
     </select>
 
 
 Conclusion
 ==========
+
 This solution is adequate if you need a REST server for learning or evaluating a new technology as it is easy and fast.
 It is also good for mocking REST responses for unit testing purposes.
 On next articles, I will show some samples of the AngularJS application.

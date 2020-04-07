@@ -1,11 +1,21 @@
+---
 title: Javascrip and HTML online web tools
-date: 2013-12-18 23:00
+date: "2013-12-18"
 author: Jordi Burgos
-category: Programming
-tags: javascript, web, tools
+tags:
+  - programming 
+  - javascript
+  - web
+  - tools
 slug: javascript-html-online-web-tools
 summary: Here are some useful tools for developing, investigating, web scraping... Mainly for Javascript and HTML.
-js: /js/tools.js
+---
+
+**TODO: Fix tools.js**
+
+{{< rawhtml >}}
+<script src="/js/tools.js"></script>
+{{< /rawhtml >}}
 
 <style>
 .result {
@@ -29,6 +39,8 @@ I'll be adding tools as they are developed, needed or asked. **Use the comments!
 Encoding/Decoding
 =================
 
+{{< rawhtml >}}
+
 <div id='encodedecode' markdown=0>
 Source text:<br/><textarea id='text' class="form-control">Text</textarea>
 <br/>
@@ -48,8 +60,12 @@ URL decode:<br/><textarea id='udecode' class="form-control result">udecode</text
 </div>
 </div>
 
+{{< /rawhtml >}}
+
 Time and Date
 =============
+
+{{< rawhtml >}}
 
 <div markdown=0>
 <div class="row">
@@ -64,10 +80,13 @@ Date UTC:<br/><textarea id='date-utc' class="form-control result">1000000</texta
 </div>
 </div>
 </div>
+{{< /rawhtml >}}
 
 
 Regular expressions
 ===================
+
+{{< rawhtml >}}
 
 <div markdown=0>
 <div class="row">
@@ -95,8 +114,12 @@ Replaced:<br/><textarea id='pattern-replaced' class="form-control result">replac
 </div>
 </div>
 
+{{< /rawhtml >}}
+
 Numbers
 =======
+
+{{< rawhtml >}}
 
 <div id='numbers' markdown=0>
 <div class="row">
@@ -130,8 +153,12 @@ hexadecimal:<br/><textarea id='hexadecimal' class="form-control result">999</tex
 </div>
 </div>
 
+{{< /rawhtml >}}
+
 JSON Formatter
 ==============
+
+{{< rawhtml >}}
 
 <div markdown=0>
 <div class="row">
@@ -143,3 +170,6 @@ JSON formatted:<br/><textarea id='jsonresult' class="form-control result tall">{
 </div>
 </div>
 </div>
+
+{{< /rawhtml >}}
+

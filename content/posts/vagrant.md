@@ -1,9 +1,15 @@
-title: Hadoop cluster with Vagrant
-date: 2013-12-06 22:00
+---
+title: "Hadoop cluster with Vagrant"
+date: "2013-12-06"
 author: Jordi Burgos
-category: Programming
-tags: big data, hadoop, virtualization, vagrant
+tags:
+  - programming 
+  - big data
+  - hadoop
+  - virtualization
+  - vagrant
 slug: big-data-hadoop-cluster-vagrant
+---
 
 After having the data, next step is to have a Hadoop cluster to "upload" the data and run the processes.
 

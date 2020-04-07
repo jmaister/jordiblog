@@ -1,9 +1,13 @@
+---
 title: Download all project dependencies to a folder with Maven
-date: 2013-11-21 20:00
+date: "2013-11-21"
 author: Jordi Burgos
-category: Programming
-tags: tip, maven
+tags:
+  - programming
+  - tip
+  - maven
 slug: maven-download-dependencies-folder
+---
 
 Some days ago at work I had a new requirement, upload all our deliverable packages (\*.jar, \*.war) to a new service for a security analysis.
 
@@ -15,7 +19,6 @@ It has lots of options but the one useful for this task is **copy-dependencies**
 
 Here is the resulting pom.xml that would place the artifacts on the **${project.build.directory}/dependency** by default. See the comments below in the code:
 
-    :::xml
     <?xml version="1.0" encoding="UTF-8"?>
     <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -95,8 +98,4 @@ By executing **mvn package** on the pom.xml folder, we would have the files on t
 
 After giving this solution, I had a great ovation from the team.
 
-<div class="center" markdown="1">
-
-![Citizen Kane applause]({filename}/images/meme/citizenkane.gif)
-
-</div>
+![Citizen Kane applause](/images/meme/citizenkane.gif)

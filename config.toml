@@ -42,6 +42,8 @@ googleAnalytics = "UA-45872762-1"
     # Table of contents
     #toc = none, "hugo", or "tocbot"
 
+    themeColor = "theme-base-08"
+
 ## Social Accounts
 [params.social]
     github = "jmaister"

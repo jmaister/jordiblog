@@ -1,9 +1,15 @@
+---
 title: Better SEO for your blog
-date: 2013-12-08 02:00
+date: "2013-12-08"
 author: Jordi Burgos
-category: Technology
-tags: seo, google, blog, pelican
+tags: 
+  - technology
+  - seo
+  - google
+  - blog
+  - pelican
 slug: better-seo-pelican-blog
+---
 
 ***Check the creation of the theme on [Creating a Pelican theme with Bootstrap](create-pelican-theme-bootstrap.html)***
 
@@ -13,13 +19,11 @@ The techniques used to achieve this are called **SEO**, *Search Engine Optimizat
 
 Here I will show you two techniques that I used on this blog and, by extension, on my Pelican theme, [jmtheme](https://github.com/jmaister/jmtheme).
 
-Pelican theme with better SEO
-==============================
+# Pelican theme with better SEO
 
 Adding some information about your blog can be done automatically from the Pelican theme. It helps the indexer bots to know what is in your pages.
 
-Pagemaps
---------
+## Pagemaps
 
 PageMaps is a structured data format that Google created to enable website creators to embed data and notes in their pages.
 
@@ -27,7 +31,6 @@ It is an XML structure inserted in the HEAD tag of the HTML page as a comment, b
 
 Here is a sample of the code used on the theme, full code on [seo_pagemap.html](https://github.com/jmaister/jmtheme/blob/master/templates/seo_pagemap.html):
 
-    :::html
     <html>
     <head>
         ....
@@ -47,8 +50,7 @@ Here is a sample of the code used on the theme, full code on [seo_pagemap.html](
 
 Here is the sample for a **document** information. There are more types like publication, action or thumbnail.
     
-Microformats
-------------
+## Microformats
 
 [Microformats](http://en.wikipedia.org/wiki/Microformat) are semantic markup formats for (X)HTML pages that help make the content accessible for search robots. Microformats allow the webmaster to indicate the meaning of specific fragments of text explicitly by supplementing existing HTML markup with special blocks of code. 
 
@@ -56,8 +58,7 @@ There are several types of microformats to tag contacts, recipes, reviews, produ
 
 Sample of hCard, the markup format for a contact. In this example, it is used to tag the author of an article. Using **vcard** on the class of the main tag and **name**, **fn**, **photo**, etc... on the child tags.
 
-    :::html
-    By <span>
+    <span>
         <!-- SEO: vcard -->
         <address id="hcard-Jordi-Burgos" class="vcard author">
             <a class="name" href="http://jordiburgos.com/author/jordi-burgos.html">Jordi Burgos</a>
@@ -85,8 +86,7 @@ Maybe this is much information and we just want to show the name, and let the sp
     }
 
 
-Show your picture on the search results
-=======================================
+# Show your picture on the search results
 
 Ever seen some people faces on the search results?
 
@@ -94,19 +94,13 @@ I you want your faces close to the search results of your pages, you need to lin
 
 **Step 1**: Add a link on your pages to your Google+ account with the "rel=author":
 
-    :::html
     <a href="https://plus.google.com/105036003303074734569?rel=author">Google+</a>
 
-**Step 2**: Add you as a contributor to your Google+ account. Go to https://plus.google.com/&lt;your-id&gt;/about and add on "Contributes to"
+**Step 2**: Add you as a contributor to your Google+ account. Go to https://plus.google.com/[your-id]/about and add on "Contributes to"
 
-<div class="center" markdown="1">
+![Photo on search results](/images/seo/results_photo.png)
 
-![Photo on search results]({filename}/images/seo/results_photo.png)
-
-</div>
-
-Conclusion
-==========
+# Conclusion
 
 With this easy configuration to add your picture and adding a little more information inside your pages, it is possible to have better positioning and visibility on search results.
 

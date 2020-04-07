@@ -16,3 +16,8 @@ My personal blog. Check it on https://jordiburgos.com
 
     hugo --baseURL "https://jordiburgos.com" --destination "dist"
 
+# Theme
+
+https://github.com/htr3n/hyde-hyde
+
+https://github.com/spf13/hyde

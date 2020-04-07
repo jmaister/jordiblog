@@ -1,9 +1,13 @@
+---
 title: Understand Bitcoin, then do not buy
-date: 2013-12-23 21:30
+date: "2013-12-23"
 author: Jordi Burgos
-category: Opinion
-tags: economy, bitcoin, opinion
+tags:
+  - economy
+  - bitcoin
+  - opinion
 slug: understand-bitcoin-then-do-not-buy
+---
 
 What is Bitcoin?
 ================
@@ -41,15 +45,11 @@ There are some exchange markets, like real stock markets, where you can buy and 
 
 The price is just based on the offer and demand. Also on fashion, as it is becoming quite popular lastly. Look at the graphic bellow, it shows the total values from its beginning.
 
-<div class="center" markdown="1">
-![All Bitcoin values]({filename}/images/bitcoin-all.png)
-</div>
+![All Bitcoin values](/images/bitcoin-all.png)
 
 It started as B1 = $1 on October 2010. On October 2013 raised to $1200, the suddenly went down to $700 in 2 days. 2 more days, $1000. And finally (as I write this words), it costs about $650. Look all sudden fluctuations on last days.
 
-<div class="center" markdown="1">
-![Last month Bitcoin values]({filename}/images/bitcoin-1m.png)
-</div>
+![Last month Bitcoin values](/images/bitcoin-1m.png)
 
 
 Conclusion

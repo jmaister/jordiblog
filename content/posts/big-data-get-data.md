@@ -1,9 +1,14 @@
-title: Big Data: Get the data
-date: 2013-12-02 20:00
+---
+title: "Big Data: Get the data"
+date: "2013-12-02"
 author: Jordi Burgos
 category: Programming
-tags: big data, small data, hadoop
+tags: 
+  - big data
+  - small data
+  - hadoop
 slug: big-data-get-data
+---
 
 Lastly, there is a lot of news, work offers, noise, ads, ... about **Big Data**. Because of this I decided to make my own Big Data project.
 
@@ -34,7 +39,6 @@ All the files follow the same pattern:
 
 For starting, I downloaded the files for years 2012 and 2013. 182694 files with 1,67 GB (1.800.364.500 bytes).
 
-    :::python
     '''
     Scrapping BOE (boe.es) bulletins.
 

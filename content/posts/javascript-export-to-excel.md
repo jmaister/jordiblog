@@ -1,15 +1,17 @@
+---
 title: Javascript export to Excel
-date: 2013-11-26 01:00
+date: "2013-11-26"
 author: Jordi Burgos
-category: Programming
-tags: javascript, export, excel, project
+tags: 
+  - programming
+  - javascript
+  - export
+  - excel
+  - project
 slug: javascript-export-to-excel
+---
 
-<div class="alert alert-info" markdown="1">
-
-Check the updated article on: [ExcellentExport.js update]({filename}/excellentexport-javascript-export-to-excel-csv.md)
-
-</div>
+**Check the updated article on: [ExcellentExport.js update]({filename}/excellentexport-javascript-export-to-excel-csv.md)**
 
 
 Introduction
@@ -36,7 +38,6 @@ So cool right? :)
 
 Let's make the export to Excel from an HTML table. The Excel 2007 file can be created on the fly. Here is the table:
 
-    :::html
     <table id="datatable">
         <tr>
             <td>100</td>
@@ -52,7 +53,6 @@ Let's make the export to Excel from an HTML table. The Excel 2007 file can be cr
 
 And here is the code of the Javascript import from my github account [ExcellentExport.js](https://github.com/jmaister/excellentexport) and the code for the link. Check the **onclick** and **download** parameters.
 
-    :::html
     <script src="excellentexport.js">
     <a download="somedata.xls"
         href="#"
@@ -61,6 +61,8 @@ And here is the code of the Javascript import from my github account [ExcellentE
 
 Working example
 ===============
+
+{{< rawhtml >}}
     
 <table class="table table-bordered" id="datatable" style="border: 1px solid black">
     <tr>
@@ -77,7 +79,9 @@ Working example
 
 <script src="/js/excellentexport.js"></script>
 
-<a download="somedata.xls" href="#" onclick="return ExcellentExport.excel(this, 'datatable', 'Sheet Name Here');">Export table to Excel</a>
+Click here to <a download="somedata.xls" href="#" onclick="return ExcellentExport.excel(this, 'datatable', 'Sheet Name Here');">Export table to Excel</a>
+
+{{< /rawhtml >}}
 
 Conclusion
 ==========

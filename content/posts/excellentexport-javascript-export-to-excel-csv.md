@@ -2,8 +2,8 @@
 title: "ExcellentExport.js update: Javascript export to Excel and CSV"
 date: "2017-09-26"
 author: Jordi Burgos
-category: Programming
-tags: 
+tags:
+  - programming 
   - javascript
   - export
   - excel
@@ -131,7 +131,6 @@ Download the new version from: [ExcellentExport.js v3.3.0](https://github.com/jm
             </tr>
 </table>
 
-
 <script src="/js/excellentexport.js"></script>
 
 Click here to <a download="somedata.xls" href="#" onclick="return ExcellentExport.excel(this, 'datatable', 'Sheet Name Here');">Export table to Excel</a>
@@ -143,7 +142,7 @@ Click here to <a download="somedata.csv" href="#" onclick="return ExcellentExpor
 
 ExcellentExport.convert(options, sheets);
 
-Options:
+_options_
 
 {{< highlight javascript >}}
      {
@@ -153,7 +152,9 @@ Options:
      }
 {{< /highlight >}}
 
-Sheet element configuration:
+_sheets_: array
+
+Each of the elements of the _sheets_ parameter:
 
 {{< highlight javascript >}}
 

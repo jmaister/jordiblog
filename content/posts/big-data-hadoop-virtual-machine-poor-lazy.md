@@ -1,9 +1,15 @@
-title: Big Data: Hadoop on a virtual machine, for the poor and lazy
-date: 2013-12-10 22:00
+---
+title: "Big Data: Hadoop on a virtual machine, for the poor and lazy"
+date: "2013-12-10"
 author: Jordi Burgos
 category: Programming
-tags: big data, hadoop, virtualization, mapreduce
+tags: 
+  - big data
+  - hadoop
+  - virtualization
+  - mapreduce
 slug: big-data-hadoop-virtual-machine-poor-lazy
+---
 
 ***You can check the first article of this series: [Big Data: Get the data](./big-data-get-data.html)***
 
@@ -44,7 +50,7 @@ Just wait to full start of the machine and you will get a screen with the instru
 
 <div class="center" markdown="1">
 
-![Hortonworks Sandbox running]({filename}/images/HortonworksSandbox20.png)
+![Hortonworks Sandbox running](/images/HortonworksSandbox20.png)
 
 </div>
 
@@ -127,8 +133,5 @@ On next articles of the series, a better example of a MapReduce implementation w
 
 Also, there will be room for another article how to automatically build the JAR for running the Hadoop job.
 
-<div class="center" markdown="1">
+![Not bad](/images/meme/not_bad.jpg)
 
-![Not bad]({filename}/images/meme/not_bad.jpg)
-
-</div>
