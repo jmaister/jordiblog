@@ -19,7 +19,7 @@ googleAnalytics = "UA-45872762-1"
     author = "Jordi Burgos"
     title = "Personal blog"
     description = "I am a Software Engineer. Here are some notes to keep track of what I do and some experiments."
-    authorimage = "/img/hugo.png"
+    authorimage = "/images/gravatar300.jpeg"
     dateformat = "2 Jan 2006"
 
     # sidebar, copyright & license
