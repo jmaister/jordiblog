@@ -1,9 +1,13 @@
+---
 title: Python bitarray and Sieve of Eratosthenes 
-date: 2014-01-27 21:00
+date: "2014-01-27"
 author: Jordi Burgos
-category: Programming
-tags: python, math
+tags:
+  - programming
+  - python
+  - math
 slug: python-bitarray-sieve-Eratosthenes
+---
 
 Some time ago, I was thinking about prime numbers and I found that it is possible to find prime numbers just with sums instead of divisions or remainders. As it was very simple approach, I thought that for sure, someone else found this solution already. And I was right, this algorithm is called [Sieve of Eratosthenes](http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes).
 
@@ -22,24 +26,13 @@ The minimum size of memory is the bit, so we can mark each number with just a bi
 
 The program uses an array of 64 bit numbers (or 32 bits, depending on your processor) and each bit says if the number is marked or not. For example, the number 1, goes on the element 0 of the array and the bit 1. The number 63, goes on the element 1 of the array, position bit 32.
 
-<table class="table border">
-	<tr>
-	   <td>Array</td>
-	   <td>32 bits</td>
-	</tr>
-	<tr>
-	   <td>element 0</td>
-	   <td>00000000000000000000000000000010</td> 
-	</tr>
-    <tr>
-       <td>element 1</td>
-       <td>10000000000000000000000000000000</td> 
-    </tr>
-</table>
+
+|Array|32 bits|
+|--- |--- |
+|element 0|00000000000000000000000000000010|
+|element 1|10000000000000000000000000000000|
 
 The position of each number on the array and the position of the bit set or reset inside is calculated with bit arithmetic. Here is the code for the address calculations:
-
-    :::python
 
         [...]
         # Depends on architecture
@@ -64,18 +57,17 @@ For calculating all the primes until a certain number, we need to mark all those
 
 With 1 GB of memory, it is possible to hold the numbers from 0 to 8,589,934,592, this is **1 * 1024 * 1024 * 1024 * 8**. 
 
-<table class="table bordered">
-<tr><td>GB Memory</td><td>Numbers</td><td>Power of 2</td></tr>
-<tr><td>1</td><td>8,589,934,592</td><td>2^33</td></tr>
-<tr><td>2</td><td>17,179,869,184</td><td>2^34</td></tr>
-<tr><td>4</td><td>34,359,738,368</td><td>2^35</td></tr>
-<tr><td>8</td><td>68,719,476,736</td><td>2^36</td></tr>
-<tr><td>16</td><td>137,438,953,472</td><td>2^37</td></tr>
-<tr><td>32</td><td>274,877,906,944</td><td>2^38</td></tr>
-<tr><td>64</td><td>549,755,813,888</td><td>2^39</td></tr>
-<tr><td>128</td><td>1,099,511,627,776</td><td>2^40</td></tr>
-<tr><td>1024</td><td>8,796,093,022,208</td><td>2^43</td></tr>
-</table>
+|GB Memory|Numbers|Power of 2|
+|-- |-- |-- |
+|1|8,589,934,592|2^33|
+|2|17,179,869,184|2^34|
+|4|34,359,738,368|2^35|
+|8|68,719,476,736|2^36|
+|16|137,438,953,472|2^37|
+|32|274,877,906,944|2^38|
+|64|549,755,813,888|2^39|
+|128|1,099,511,627,776|2^40|
+|1024|8,796,093,022,208|2^43|
 
 This calculations are aproximations, the execution of the program would take a little more memory.
 
@@ -93,9 +85,7 @@ What would cost to store all that information on hard drives? A 4 TB SATA hard d
 
 Just for the hard drives. **Anyone interested on funding the project ?**
 
-<div class="center" markdown="1">
-![Not bad]({filename}/images/meme/shut_up_take_money.jpg)
-</div>
+![Shut up and take my money](/images/meme/shut_up_take_money.jpg)
 
 Optimization
 ============
