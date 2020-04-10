@@ -5,8 +5,14 @@ My personal blog. Check it on https://jordiburgos.com
 
 # Install Hugo
 
-    wget https://github.com/gohugoio/hugo/releases/download/v0.68.3/hugo_0.68.3_Linux-64bit.deb -O hugo.deb
+    wget https://github.com/gohugoio/hugo/releases/download/v0.69.0/hugo_0.69.0_Linux-64bit.deb -O hugo.deb
     sudo dpkg -i hugo.deb
+
+## Install without root
+
+    wget https://github.com/gohugoio/hugo/releases/download/v0.69.0/hugo_0.69.0_Linux-64bit.tar.gz -O hugo.tar.gz
+    tar -xzvf hugo.tar.gz
+    cp hugo ~/bin
 
 # Test drafts
 
@@ -20,7 +26,8 @@ My personal blog. Check it on https://jordiburgos.com
 
 https://github.com/htr3n/hyde-hyde
 
-https://github.com/spf13/hyde
+    git submodule add https://github.com/htr3n/hyde-hyde.git themes/hyde-hyde
+
 
 # Shortcodes
 
