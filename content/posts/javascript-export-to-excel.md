@@ -11,7 +11,7 @@ tags:
 slug: javascript-export-to-excel
 ---
 
-**Check the updated article on: [ExcellentExport.js update]({filename}/excellentexport-javascript-export-to-excel-csv.md)**
+**Check the updated article on: [ExcellentExport.js update]({{< ref "excellentexport-javascript-export-to-excel-csv.md" >}})**
 
 
 Introduction

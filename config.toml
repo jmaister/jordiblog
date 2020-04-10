@@ -14,6 +14,12 @@ googleAnalytics = "UA-45872762-1"
 
 #paginate = 5
 
+# Make URLs look like /post/yyyy/name.html instead of /post/yyyy/name/
+uglyurls = true
+
+[permalinks]
+  posts = "/post/:year/:slug/"
+
 ## Site Settings
 [params]
     author = "Jordi Burgos"
@@ -24,7 +30,7 @@ googleAnalytics = "UA-45872762-1"
 
     # sidebar, copyright & license
     copyright = "Jordi Burgos"
-    since = 2014
+    since = 2013
     license = "CC BY-SA 4.0"
     licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
     showBuiltWith = false
