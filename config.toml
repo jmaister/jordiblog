@@ -25,7 +25,7 @@ uglyurls = true
     author = "Jordi Burgos"
     title = "Personal blog"
     description = "I am a Software Engineer. Here are some notes to keep track of what I do and some experiments."
-    authorimage = "/images/gravatar300.jpeg"
+    authorimage = "images/gravatar300.jpeg"
     dateformat = "2 Jan 2006"
 
     # sidebar, copyright & license
@@ -62,7 +62,7 @@ uglyurls = true
     #telegram = "<username>"
     # orcid = "<xxxx-xxxx-xxxx-xxxx>"
     email = "jordiburgos@gmail.com"
-    # gravatar = "your-email@example.com"
+    #gravatar = "jordiburgos@gmail.com"
 
 ## Main Menu
 [[menu.main]]
