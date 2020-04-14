@@ -69,7 +69,7 @@ uglyurls = true
     name = "Posts"
     weight = 100
     identifier = "posts"
-    url = "/posts/"
+    url = "/posts.html"
 #[[menu.main]]
 #    name = "Portfolio"
 #    identifier = "portfolio"
@@ -79,4 +79,4 @@ uglyurls = true
     name = "About"
     identifier = "about"
     weight = 300
-    url = "/about/"
+    url = "/about.html"
