@@ -15,7 +15,7 @@ the reverse proxy will translate a each subdomain to its specific port:
 * example.com -> port 80
 * www.example.com -> port 80
 * chat.example.com -> port 1313
-* nextcloud.example -> port 55055
+* nextcloud.example.com -> port 55055
 * etc...
 
 # Reverse proxy selection
@@ -101,5 +101,4 @@ This is the configuration file stored on /etc/caddy/Caddyfile
     }
 
 
-Mostly every subdomain has the same configuration. The only difference is the port number where 
-you deployed each service.
+Mostly every subdomain has the same configuration. The only difference is the port number where you deployed each service.
