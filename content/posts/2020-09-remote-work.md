@@ -4,6 +4,8 @@ date: "2020-09-14"
 draft: true
 ---
 
+*https://news.ycombinator.com/item?id=24452280*
+
 I saw lots of blog posts, comments on blog posts, news, etc... about working remotely.
 
 I want to write what I think about it so I can keep track of all needed and how to address every problem/benefit of working from home.
