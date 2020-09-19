@@ -24,7 +24,10 @@ But, the great but, open plan offices are not good for concentration.
 
 # 100% Remote work, mandatory
 
-With the Covid Global Pandemic on March 2020, I started working 100% from home.
+With the Covid Global Pandemic on March 2020, I started working 100% from home. Offices are closed, it is not possible to get in the office. 
+It was strange at the beginning, but it was more because of the confinement.
+Being at home the whole day for weeks... 
+However, doing some work everyday helped to create a healthy routine. 
 
 # Tools for working from home
 
