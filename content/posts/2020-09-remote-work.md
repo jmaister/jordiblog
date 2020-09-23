@@ -27,10 +27,23 @@ But, the great but, open plan offices are not good for concentration.
 With the Covid Global Pandemic on March 2020, I started working 100% from home. Offices are closed, it is not possible to get in the office. 
 It was strange at the beginning, but it was more because of the confinement.
 Being at home the whole day for weeks... 
-However, doing some work everyday helped to create a healthy routine. 
+However, doing some work everyday helped to create a healthy routine:
+
+* Keep hygiene as usual 
+* Get dressed. Don't work with the pajamas!! 
+* Breakfast and lunch at regular times
 
 # Tools for working from home
 
-# My future
+Desk and chair: can be your regular desk or any table where you can keep the ergonomic recommendations of your company. 
 
-# Ending
+Keyboard and mouse: working with the laptop keyboard and track pad can be done for short periods of time. Definitely, a proper keyboard a mouse is needed to keep up the whole journey.
+
+Monitor/s: the more the better. Is is recommended to have at least one monitor to avoid the position used when using a laptop, following company's ergonomic recommendations. 
+
+
+# Thoughts
+
+Remote working is not for everyone, it is a personal preference and requires adaptation. 
+Also, it works or not depending on your way of working, experience and 
+
